@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>NapoleonCake</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <div class="container">
+          <header class="header">
+               <div class="header__menu">
+                    <img src="./img/menu-outline.png" alt="">
+                    <ul>
+                         <li><a href="#">Каталог</a></li>
+                    </ul>
+               </div>
+               <div class="navigation">
+                    <ul class="navigation__links">
+                         <li><a href="#">Торты</a></li>
+                         <li><a href="#">Десерты в баночках</a></li>
+                         <li><a href="#">Покупателям</a></li>
+                    </ul>
+               </div>
+               <h3 class="header__logo">NapoleonCake</h3>
+               <div class="header__contact">
+                    <p>8 800 200-95-70</p>
+                    <p>Бесплатный звонок по Москве и МО</p>
+               </div>
+               <div class="header__icons">
+                    <img src="./img/search-outline.png" alt="">
+                    <img src="./img/person-outline.png" alt="">
+                    <img src="./img/heart-outline.png" alt="">
+                    <img src="./img/bag-outline.png" alt="">
+               </div>
+          </header>
+
+          <!-- Ordering -->
+          <div class="order">
+               <p>Главная</p>
+               <img src="./img/Vector.png" alt="">
+               <p>Оформление заказа</p>
+          </div>
+     </div>
+
+     <!-- Registration -->
+          <div class="registration__container">
+               <div class="registration">
+                    <h3 class="registration__title">
+                         Оформление заказа
+                    </h3>
+                    <form action="#" class="forms">
+                         <div class="personal__details">
+                              <span>Личные данные</span> <br>
+                              <input type="name" placeholder="Имя">
+                              <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required placeholder="Телефон">
+                         </div>
+                          <span class="pers">Информация по доставке</span> 
+                         <div class="delivering__info">
+                              <button>Курьер</button>
+                              <button >Самовывоз</button>
+                         <select name="district" id="district" placeholder="Район доставки">
+                              <option value="Shayhontahur">Shayhontahur</option>
+                              <option value="Yunusobod">Yunusobod</option>
+                              <option value="Yangiobod">Yangiobod</option>
+                              <option value="Sergeli">Sergeli</option>
+                              <option value="Chilonzor">Chilonzor</option>
+                              <option value="Yakkasaroy">Yakkasaroy</option>
+                         </select>
+                    </div>
+                         <div class="adress">
+                              <input type="text" placeholder="Улица">
+                              <input type="text" placeholder="Дом">
+                              <input type="text" placeholder="Под.">
+                              <input type="text" placeholder="Эт..">
+                              <input type="text" placeholder="Кв.">
+                         </div>
+                         <textarea name="comment" id="comment" width="400" hight="84" placeholder="Комментарии"></textarea> <br>
+                         <select class="date__ordering" aria-placeholder="Дата доставки">
+                              <option value="12.02.2023">12.02.2023</option>
+                              <option value="12.03.2023">12.03.2023</option>
+                              <option value="12.04.2023">12.04.2023</option>
+                         </select>
+                         <select class="date__ordering">
+                              <option value="10:00-15:00, 450 ₽">10:00-15:00, 450 ₽</option>
+                              <option value="09:20-17:30, 420 ₽">09:20-17:30, 420 ₽</option>
+                         </select>
+                    </form>
+               </div>
+   
+     
+               <!-- Payments check -->
+               <div class="payments">
+                    <div class="payments__box">
+                         <div class="typeOf__payment">
+                              <p>Способ оплаты</p> <br>
+                              <button>Наличными</button>
+                              <button class="btn__white">Картой онлайн</button>
+                         </div>
+                         <p class="my__bonus__p">Мои бонусы</p> <br>
+                         <div class="my__bonus">
+                              <div class="my__bonus__row">
+                                   <div class="bonus-blok">
+                                        <p>200 ₽</p>
+                                        <div class="bonus-line"></div>
+                                   </div>
+                                   <button>Оплатить бонусами</button>
+                              </div>
+                         </div>
+                         <div class="total__money">
+                              <div class="bonuses">
+                                   <p>Подарим бонусов:</p>
+                                   <p>450 ₽</p>
+                              </div>
+                              <div class="order__price">
+                                   <p>Доставка:</p>
+                                   <p>450 ₽</p>
+                              </div>
+                              <div class="total__price">
+                                   <p>Всего:</p>
+                                   <span>3 200 ₽</span>
+                              </div>
+                         </div>
+                         <div class="bottom">
+                         <div class="btn">Оформить заказ</div>
+                         <p>Нажимая на кнопку «оплатить заказ», я принимаю условия публичной оферты и политики конфиденциальности</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+</body>
+</html>
