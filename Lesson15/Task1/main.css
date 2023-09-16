@@ -1,0 +1,403 @@
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #1b2d48;
+}
+
+
+.loading {
+     margin-top: 250px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border: 1px solid #fff;
+     padding: 200px;
+}
+
+
+.loading-lines {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     max-height: 100px;
+}
+
+.heading {
+     display: flex;
+     height: 45px;
+     margin-top: 20px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7,
+.h8,
+.h9,
+.h10 {
+     font-family: 'Poppins';
+     color: #fff;
+     animation-iteration-count: infinite;
+     animation-duration: 2s;
+}
+
+.h1 {
+     animation-delay: 0.s;
+     animation-name: h1;
+}
+
+@keyframes h1 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h2 {
+     animation-delay: 0.1s;
+     animation-name: h2;
+}
+
+@keyframes h2 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h3 {
+     animation-delay: 0.6s;
+     animation-name: h3;
+}
+
+@keyframes h3 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h4 {
+     animation-delay: 0.8s;
+     animation-name: h4;
+}
+
+@keyframes h4 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h5 {
+     animation-delay: 1s;
+     animation-name: h5;
+}
+
+@keyframes h5 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h6 {
+     animation-delay: 1.2s;
+     animation-name: h6;
+}
+
+@keyframes h6 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 8px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h7 {
+     animation-delay: 1.4s;
+     animation-name: h7;
+}
+
+@keyframes h7 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h8 {
+     animation-delay: 1.6s;
+     animation-name: h8;
+}
+
+@keyframes h8 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h9 {
+     animation-delay: 1.8s;
+     animation-name: h9;
+}
+
+@keyframes h9 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+.h10 {
+     animation-delay: 2s;
+     animation-name: h10;
+}
+
+@keyframes h10 {
+     0% {
+          letter-spacing: 0;
+     }
+
+     50% {
+          letter-spacing: 5px;
+          height: 10px;
+     }
+
+     100% {
+          letter-spacing: 0;
+     }
+}
+
+.loading-line1, 
+.loading-line2,
+.loading-line3,
+.loading-line4,
+.loading-line5,
+.loading-line6,
+.loading-line7 {
+     width: 0px;
+     height: 120px;
+     color: #FFf;
+     border: 10px solid #fff;
+     animation-iteration-count: infinite;
+     animation-duration: 2s;
+     border-radius: 5px;
+}
+
+.loading-line1 {
+     animation-delay: 0.1s;
+     animation-name: Loading1;
+     color: #ffa505;
+}
+
+@keyframes Loading1 {
+               
+     0% {
+          height: 100px;
+          color: #FFf;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+          color: #ffa505;
+     }
+}
+
+.loading-line2 {
+     animation-delay: 0.2s;
+     animation-name: Loading2;
+}
+
+@keyframes Loading2 {
+               
+     0% {
+          height: 100px;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+     }
+}
+
+.loading-line3 {
+     animation-delay: 0.3s;
+     animation-name: Loading3;
+}
+
+@keyframes Loading3 {
+               
+     0% {
+          height: 100px;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+     }
+}
+
+
+.loading-line4 {
+     animation-delay: 0.4s;
+     animation-name: Loading4;
+}
+
+@keyframes Loading4 {
+               
+     0% {
+          height: 100px;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+     }
+}
+
+.loading-line5 {
+     animation-delay: .5s;
+     animation-name: Loading5;
+}
+
+
+@keyframes Loading5 {
+               
+     0% {
+          height: 100px;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+     }
+}
+
+.loading-line6 {
+     animation-delay: .6s;
+     animation-name: Loading6;
+}
+
+
+@keyframes Loading6 {
+               
+     0% {
+          height: 100px;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+     }
+}
+
+.loading-line7 {
+     animation-delay: .7s;
+     animation-name: Loading7;
+}
+
+
+@keyframes Loading7 {
+               
+     0% {
+          height: 100px;
+     }
+
+     50% {
+          height: 50px;
+     }
+
+     100% {
+          height: 100px;
+     }
+}

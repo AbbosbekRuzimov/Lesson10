@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Core styles */
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: Poppins;|
+}
+
+ul, li, a {
+     list-style: none;
+     text-decoration: none;
+     color: inherit;
+     cursor: pointer;
+     font-size: 14px;
+     font-weight: 400;
+}
+
+.container {
+     margin: 0 auto;
+     max-width: 1700px;
+}
+
+.bg-img {
+     background: url(./assets/image/image\ 3.png) no-repeat center;
+     height: 1000px;
+}
+/* Header section */
+.header {
+     padding-top: 50px;
+}
+
+.header-row {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 50px;
+     
+}
+
+.navigation {
+     display: flex;
+     gap: 30px;
+}
+
+.down-tag {
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+
+.navigation li a {
+     color: #fff;
+}
+
+.header-img {
+     width: 24px;
+     display: flex;
+     justify-content: center;
+}
+
+/* Home section */
+.home {
+
+}
+
+.home-content {
+     display: flex;
+     gap: 50px;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-top: 100px;
+}
+
+.home-content h1 {
+     line-height: 72px;
+     font-size: 48px;
+     font-weight: 600;
+     color: #fff;
+}
+
+.home-content p {
+     line-height: 36px;
+     font-size: 18px;
+     font-weight: 400;
+     color: #fff;
+}
+
+.home-search {
+     /* position: relative; */
+     width: 260px;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     left: 630px;
+     margin-top: 50px;
+}
+
+.home-search input {
+     /* position: absolute; */
+     width: 100%;
+     outline: none;
+     border: none;
+     height: 100%;
+     padding: 10px;
+     border-radius: 30px;
+     background-color: rgba(255, 255, 255, 0.5);
+     border: 1px solid #fff;
+}
+
+.home-search input::placeholder {
+     color: #ffffff;
+}
+
+.home-search input img {
+     display: flex;
+     justify-content: flex-end;
+}

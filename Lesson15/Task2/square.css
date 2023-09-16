@@ -1,0 +1,62 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #000;
+   flex-direction: column;
+   gap: 100px;
+}
+
+.square-animation {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 100vh;
+   height: 500px;
+   gap: 20px;
+   position: relative;
+}
+
+.square-2,
+.square-3,
+.square-4,
+.square-5 {
+   width: 70px;
+   height: 70px;
+   background-color: red;
+   display: flex;
+   border-radius: 5px;
+}
+
+.square-1 {
+   display: flex;
+   width: 70px;
+   height: 70px;
+   background-color: yellow;
+   display: flex;
+   border-radius: 5px;
+   translate:(70px -100px);
+}
+
+.square-1:hover {
+   background-color: aqua;
+}
+
+
+.image-animation {
+
+}
+
+.image-animation img {
+   object-fit: contain;
+   width: 400px;
+   border: 2px solid #fff;
+   animation-name: IMage;
+   rotate: 180deg;
+}

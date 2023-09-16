@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+
+     <style>
+          body {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               background-color: gold;
+               position: relative;
+          }
+          .spinner {
+               height: 600px;
+               width: 400px;
+               margin-top: 200px;
+               position: relative;
+               transform-origin: center;
+          }
+
+          img {
+               position: absolute;
+               width: 400px;
+               animation-name: spinner;
+               animation-duration: 7s;
+               animation-iteration-count: infinite;
+              
+          }
+
+          img:hover {
+               animation-play-state: paused;
+          }
+
+          @keyframes spinner {
+               0% {
+                    transform: rotate(0deg);
+               }
+
+               50% {
+                    transform: rotateY('2000deg');
+               }
+
+               100% {
+                    transform: rotate(2600deg);
+               }
+          }
+
+     </style>
+
+     <div class="spinner">
+          <img src="https://pngimg.com/uploads/spinner/spinner_PNG2.png" alt="">
+     </div>
+</head>
+<body>
+     
+</body>
+</html>
