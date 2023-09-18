@@ -1,0 +1,14 @@
+@font-face {
+     font-family: 'Hind Siliguri';
+     src: url(../fonts/Hind_Siliguri/HindSiliguri-Bold.ttf);
+     src: url(../fonts/Hind_Siliguri/HindSiliguri-SemiBold.ttf);
+     src: url(../fonts/Hind_Siliguri/HindSiliguri-SemiBold.ttf);
+     src: url(../fonts/Hind_Siliguri/HindSiliguri-Regular.ttf);
+     src: url(../fonts/Hind_Siliguri/HindSiliguri-Light.ttf);
+}
+
+html
+body {
+     font-family: 'Hind Siliguri';
+     color: $primary-color;
+}

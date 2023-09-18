@@ -1,0 +1,28 @@
+
+.header {
+     padding: 30px;
+}
+
+.header-container {
+     display: flex;
+     justify-content: space-between;
+}
+
+.navbar-items {
+     display: flex;
+     justify-content: space-between;
+     gap: 50px;
+     li {
+          display: flex;
+          justify-content: space-between;
+          img {
+               margin-left: 5px;
+          }
+     }
+}
+
+.header-icons {
+     display: flex;
+     gap: 20px;
+     align-items: center;
+}
