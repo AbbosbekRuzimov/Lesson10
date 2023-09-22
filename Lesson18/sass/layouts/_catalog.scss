@@ -1,0 +1,120 @@
+
+.catalog-cards {
+     display: flex;
+     gap: 50px;
+     align-items: center;
+     margin-top: 100px;
+     .catalog-card {
+          background-color: #f2f2f2;
+          padding: 51px;
+     }
+     .catalog-card__tablet{
+          display: none;
+     }
+     .catalog-card__top {
+          display: flex;
+          gap: 30px;
+          align-items: center;
+          padding-bottom: 30px;
+          img {
+               width: 100px;
+               height: 100px;
+          }
+     }
+     h3 {
+          text-transform: uppercase;
+          line-height: 36px;
+          font: {
+               size: 36px;
+               weight: 600;
+               family: $font
+          }
+     }
+
+     p {
+          line-height: 24px;
+          padding-bottom: 30px;
+          font: {
+               size: 16px;
+               weight: 400;
+               font-family: 'arial';
+          }
+     }
+     button {
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          padding-bottom: 20px;
+          gap: 30px;
+          font: {
+               size: 20px;
+               weight: 600;
+               family: $font
+          }
+     }
+}
+
+//    Tablets large smartphones
+@media  screen and (min-width: 481px) and (max-width: 768px) {
+     .catalog-container {
+          margin-left: 50px;
+          padding: 0;
+     }
+     .catalog-cards {
+          padding-top: 50px;
+          margin-top: 250px;
+          margin-left: 0;
+          .catalog-cards__tablet {
+               display: flex;
+               flex-direction: column;
+               gap: 50px;
+          }
+          .catalog-card__tablet {
+               background-color: #f2f2f2;
+               padding: 42px;
+               display: flex;
+               justify-content: space-between;
+               margin-left: 0;
+               gap: 20px;
+          }
+          .catalog-card {
+               display: none;
+          }
+          h3 {
+               text-transform: uppercase;
+               line-height: 36px;
+               padding-bottom: 20px;
+               font: {
+                    size: 36px;
+                    weight: 600;
+                    family: $font
+               }
+          }
+     
+          p {
+               line-height: 24px;
+               padding-bottom: 30px;
+               font: {
+                    size: 16px;
+                    weight: 400;
+                    font-family: 'arial';
+               }
+          }
+          button {
+               display: flex;
+               align-items: center;
+               text-transform: uppercase;
+               gap: 30px;
+               font: {
+                    size: 20px;
+                    weight: 600;
+                    family: $font
+               }
+          }
+     }
+     .catalog-right {
+          img {
+               width: 150px;
+          }
+     }
+}

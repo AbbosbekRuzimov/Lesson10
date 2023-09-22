@@ -1,0 +1,124 @@
+.instruction {
+     padding: 70px 0;
+    .instruction-title {
+     h2 {
+          padding-bottom: 70px;
+          font: {
+               size: 60px;
+               family: $font;
+               weight: 600;
+          }
+     }
+    }
+    
+     .instruction-cards {
+          display: flex;
+          gap: 100px;
+          .instruction-cards__row {
+               display: none;
+          }
+          h2 {
+               font : {
+                    padding-bottom: 50px;
+                    size: 60px;
+                    weigth: 600;
+                    family: $font;
+               }
+          }
+          .instruction-card {
+               padding: 5px;
+               position: relative;
+          }
+          img {
+               padding-bottom: 40px;
+          }
+          p{
+               line-height: 24px;
+               font: {
+                    size: 16px;
+                    weigth: 400;
+               }
+          }
+          h1 {
+               position: absolute;
+               opacity: 20%;
+               top: 0;
+               right: 0;
+               font: {
+                    size: 280px;
+                    weight: 600;
+               }
+          }
+     }
+}
+
+//    Tablets large smartphones
+@media  screen and (min-width: 481px) and (max-width: 768px) {
+     .instruction-container {
+          max-width: 768px;
+          margin: 0;
+     }
+     .instruction {
+          padding: 70px 0;
+         .instruction-title {
+          h2 {
+               padding-bottom: 70px;
+               font: {
+                    size: 60px;
+                    family: $font;
+                    weight: 600;
+               }
+          }
+         }
+         
+          .instruction-cards {
+               display: flex;
+               padding-left: 30px;
+               flex-direction: column;
+               gap: 40px;
+               h2 {
+                    font : {
+                         padding-bottom: 50px;
+                         size: 60px;
+                         weigth: 600;
+                         family: $font;
+                    }
+               }
+               .instruction-cards__row {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 120px;
+               }
+               .instruction-card {
+                    display: none;
+               }
+
+               .instruction-card2 {
+                    padding: 40px 20px 10px 0;
+                    position: relative;
+               }
+               img {
+                    padding-bottom: 31px;
+                    width: 80px;
+               }
+               p{
+                    line-height: 24px;
+                    font: {
+                         size: 16px;
+                         weigth: 400;
+                    }
+               }
+               h1 {
+                    position: absolute;
+                    opacity: 20%;
+                    top: 0;
+                    right: 0;
+                    font: {
+                         size: 280px;
+                         weight: 600;
+                    }
+               }
+          }
+     }
+     
+}

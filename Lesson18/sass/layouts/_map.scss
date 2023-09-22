@@ -1,0 +1,14 @@
+.map {
+     margin-left: 40px;
+}
+
+//    Tablets large smartphones
+@media  screen and (min-width: 481px) and (max-width: 768px) {
+     .map {
+          margin: 0;
+          padding: 0;
+          img {
+               width: 760px;
+          }
+     }
+}

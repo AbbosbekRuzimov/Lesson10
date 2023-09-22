@@ -1,0 +1,111 @@
+.example-title {
+     font-weight: 600;
+     font-size: 60px;
+     font-family: $font;
+     padding-bottom: 70px;
+     padding: 50px 0  70px 200px;
+}
+
+.example {
+     padding-top: 70px;
+     background-color: #f2f2f2;
+     position: relative;
+     .example-wrapper {
+          display: flex;
+          justify-content: flex-start;
+          gap: 400px;
+     }
+     .example-content {
+          P {
+          margin-bottom: 80px;
+          line-height: 24px;
+          font-size: 16px;
+          }
+          .modules {
+               display: flex;
+               gap: 50px;
+          }
+          .info {
+               display: flex;
+               gap: 50px;
+               margin-top: 70px;
+               h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: $font;
+                    text-transform: uppercase;
+               }
+          }
+     }
+
+     .chart {
+          display: flex;
+          align-items: center;
+          margin-top: 200px;
+          p{
+               font-size: 20px;
+                font-weight: 600;
+                font-family: $font;
+                text-transform: uppercase;    
+                margin: 0 30px; 
+          }
+          .line {
+               height: 2px;
+               border: 2px solid #dcdada;
+               width: 180px;
+               border-radius: 2px;
+          }
+          .circle {
+               width: 30px;
+               height: 30px;
+               border-radius: 50%;
+               background-color: #fff;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+          }
+          .comma {
+               width: 5px;
+               height: 5px;
+               background-color: green;
+               border-radius: 50%;
+          }
+     }
+     .example-img {
+          position: absolute;
+          right: 100px;
+          top: -200px;
+     }
+     .example-img2 {
+          display: none;
+     }
+}
+
+
+//    Tablets large smartphones
+@media  screen and (min-width: 481px) and (max-width: 768px) {
+     .example-title {
+          font-weight: 600;
+          font-size: 60px;
+          font-family: $font;
+          padding-bottom: 63px;
+          padding-left: 30px;
+     }
+     .example-container {
+          position: relative;
+     }
+     .example-wrapper {
+          display: flex;
+          flex-direction: column;
+          .chart {
+               padding-bottom: 30px;
+          }
+
+     }
+     .example-img {
+          position: absolute;
+          bottom: 0px;
+          margin-top: 600px;
+          left: 0;
+     }
+}
